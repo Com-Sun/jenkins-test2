@@ -34,10 +34,9 @@ jobs:
           host: ${{ secrets.SSH_IP }}
           username: ${{ secrets.SSH_ID }}
           key: ${{ secrets.SSH_KEY }}
+          password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.SSH_PORT }}
           source: "target/*.jar"
           target: "~/"
           rm: false
           script: "~/startup.sh"
-
-

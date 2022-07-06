@@ -6,5 +6,7 @@ public class TestClass {
         //dddd
         //dd
         //hoho
+        //haha
+        //hihi
     }
 }
